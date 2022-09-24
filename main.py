@@ -91,4 +91,3 @@ while not guess == ans:
         ans_long_letter = lat[j]
         guess_long_letter = lat[names.index(guess)]
         print("←" if ans_long_letter-guess_long_letter else "→")
-# ---------------------------------------------------------------------------
